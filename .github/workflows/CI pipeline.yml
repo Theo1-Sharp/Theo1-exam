@@ -22,8 +22,8 @@ jobs:
         node-version: 14.x
         cache: 'npm'
     - name: Installing NPM
-    - run: npm install
+      run: npm install
     - name: Running unit tests
-    - run: npm run test:unit
+      run: npm run test:unit
     - name: Display username
-    - run: echo "Theo1"
+      run: echo "Theo1"
